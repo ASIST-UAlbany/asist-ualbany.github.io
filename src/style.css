@@ -162,10 +162,61 @@ section p {
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 24px;
+  gap: 10px;
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--purple);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.links a:hover {
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.links svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+section .links {
+  margin-top: 14px;
+}
+
+.site-footer .wrap {
+  align-items: center;
+}
+
+.site-footer .links a {
+  width: 34px;
+  height: 34px;
+  border: 0;
+  color: var(--muted);
+}
+
+.site-footer .links a:hover {
+  color: var(--purple);
+}
+
+.site-footer .links svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* Events */
