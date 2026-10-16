@@ -1,0 +1,16 @@
+{
+  "name": "asis-t-ualbany-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^6.4.299"
+  }
+}
