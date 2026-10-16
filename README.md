@@ -1,7 +1,7 @@
 # ASIS&T UAlbany website
 
 The website for the University at Albany student chapter of the Association for Information Science and Technology,
-served at https://asis-t-ualbany.github.io/.
+served at https://asist-ualbany.github.io/.
 
 It is a small static site built with [Vite](https://vite.dev/) and deployed to GitHub Pages by GitHub Actions on
 every push to `main`.
